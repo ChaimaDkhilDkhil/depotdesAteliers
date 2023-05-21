@@ -198,7 +198,7 @@ public class CatController {
     public String show() {
         return "index";
     }
-    @GetMapping("/showSignup")
+    @GetMapping("/signup")
     public String showSignup(Model model) {
         model.addAttribute("userForm", new UserForm());
         return "signup";
